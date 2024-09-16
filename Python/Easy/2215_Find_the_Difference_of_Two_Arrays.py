@@ -2,7 +2,7 @@
 
 Question: Find the difference of two arrays
 
-Reworded Summary: Given two 0-indexed integer arrays 'nums1' and 'nums2', return a list answer of size 2 where:
+Summary: Given two 0-indexed integer arrays 'nums1' and 'nums2', return a list answer of size 2 where:
 1. 'answer[0]' contains all distinct integers in 'nums1' that are not present in 'nums2'.
 2. 'answer[1]' contains all distinct integers in 'nums2' that are not present in 'nums1'. 
 The integers in the lists can be returned in any order.
