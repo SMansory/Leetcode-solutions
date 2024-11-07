@@ -11,6 +11,8 @@ Time complexity: O((m + n) log (m + n)) - Combining and sorting the arrays.
 Space complexity: O(m + n) - Storing the combined array.
 """
 
+from statistics import median
+
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
         return median(sorted(nums1 + nums2))
